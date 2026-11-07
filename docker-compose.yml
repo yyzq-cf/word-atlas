@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  word-atlas:
+    image: ywsj/word-atlas:latest
+    container_name: word-atlas
+    ports:
+      - "8080:80"
+    restart: always
