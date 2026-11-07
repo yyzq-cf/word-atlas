@@ -1,5 +1,3 @@
-version: "3"
-
 services:
   word-atlas:
     image: ywsj/word-atlas:latest
